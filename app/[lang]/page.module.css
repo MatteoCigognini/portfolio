@@ -1,0 +1,100 @@
+.hero {
+  height: auto;
+  width: 100%;
+  padding: 100px 0;
+  background-image: url('/images/pattern.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heroContent {
+  text-align: center;
+}
+
+.heroContent .image {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 40px auto;
+  border-radius: 50%;
+  border: 5px solid var(--color-primary);
+}
+
+.heroContent .image .img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.heroContent .title {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+.heroContent .title strong {
+  color: var(--color-primary);
+}
+
+.heroContent .role {
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  color: var(--foreground-light);
+}
+
+.heroContent .caption {
+  padding: 0 20%;
+  margin-top: 20px;
+  font-size: var(--font-size-md);
+  font-weight: 400;
+  color: var(--foreground-light);
+}
+
+.heroContent .actions {
+  height: auto;
+  width: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.projects {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+  gap: 20px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .skills {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}

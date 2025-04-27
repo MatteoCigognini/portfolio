@@ -1,0 +1,25 @@
+{
+    "projects": "Projects",
+    "contacts": "Contacts",
+    "viewWorks": "View works",
+    "contactMe": "Contact me",
+    "roleCaption": "Full Stack Developer in constant evolution, always looking for new challenges.",
+    "mySkills": "My **Skills**",
+    "skillsCaption": "Over the years, I have developed practical and solid skills in various areas of web development. I enjoy continuous learning and improving both my technical and organizational abilities. Among my strengths are adaptability to different projects, attention to detail, and a strong focus on finding practical and efficient solutions. I am confident with the technologies I use daily and always open to new challenges to keep growing.",
+    "myWorks": "My **Works**",
+    "worksCaption": "Here you can find a selection of projects I have worked on. Some were developed for clients, while others are personal projects or experiments born from my desire to improve. Each project represents an opportunity I embraced to refine my technical and creative skills, always aiming to build functional, well-crafted solutions tailored to each project's needs.",
+    "projectItems": {
+        "sognando-casa": {
+            "description": "E-commerce platform selling building materials (mainly tiles). I developed the entire structure, from frontend to backend."
+        },
+        "dimora": {
+            "description": "E-commerce platform selling building materials (mainly tiles). I developed the entire structure, from frontend to backend."
+        },
+        "builder-be-shoppy": {
+            "description": "Centralized management system for e-commerce platforms: product creation, customer management, orders, inventory, payments, and shipping."
+        },
+        "reasy-gen": {
+            "description": "Online content generator structured around applications, currently under development."
+        }
+    }
+}
