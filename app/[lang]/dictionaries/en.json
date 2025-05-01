@@ -8,6 +8,10 @@
     "skillsCaption": "Over the years, I have developed practical and solid skills in various areas of web development. I enjoy continuous learning and improving both my technical and organizational abilities. Among my strengths are adaptability to different projects, attention to detail, and a strong focus on finding practical and efficient solutions. I am confident with the technologies I use daily and always open to new challenges to keep growing.",
     "myWorks": "My **Works**",
     "worksCaption": "Here you can find a selection of projects I have worked on. Some were developed for clients, while others are personal projects or experiments born from my desire to improve. Each project represents an opportunity I embraced to refine my technical and creative skills, always aiming to build functional, well-crafted solutions tailored to each project's needs.",
+    "haveAnIdea": {
+        "title": "Have an **Idea**? Let's Build it.",
+        "description": "Feel free to reach out if you’re in need of a Developer. Whether that means you need a website, web app, or you’re looking to fill a full-time position. I’m always open to a conversation."
+    },
     "projectItems": {
         "sognando-casa": {
             "description": "E-commerce platform selling building materials (mainly tiles). I developed the entire structure, from frontend to backend."
