@@ -1,5 +1,5 @@
 import { Space_Grotesk } from 'next/font/google';
-// import '@fortawesome/fontawesome-svg-core/styles.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({

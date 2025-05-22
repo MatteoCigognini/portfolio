@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import Breakpoint from '../Breakpoint/Breakpoint'
 import styles from './Header.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import Button from '../Buttons/Button'
 
 export default function Header({ lang, dict }) {
     return <>
@@ -11,8 +14,24 @@ export default function Header({ lang, dict }) {
                     <nav className={styles.nav}>
                         <Link href={`/${lang}`} className={styles.link}>Home</Link>
                         <Link href={`/${lang}/projects`} className={styles.link}>{dict.projects}</Link>
-                        <Link href={`/${lang}/contacts`} className={styles.link}>{dict.contacts}</Link>
                         <Link href={`/${lang}/blog`} className={styles.link}>Blog</Link>
+                        <Button variant='primary'>{dict.contactMe}</Button>
+
+                        {/* Social */}
+                        <div className={styles.socials}>
+                            <Link href={`https://github.com/MatteoCigognini`} target='_blank' className={styles.socialIcon}>
+                                <FontAwesomeIcon icon={faGithub} />
+                            </Link>
+                            <Link href={`https://www.facebook.com/cigognini.matteo`} target='_blank' className={styles.socialIcon}>
+                                <FontAwesomeIcon icon={faFacebook} />
+                            </Link>
+                            <Link href={`https://www.linkedin.com/in/cigognini-matteo`} target='_blank' className={styles.socialIcon}>
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </Link>
+                            <Link href={`https://www.instagram.com/cigognini.matteo`} target='_blank' className={styles.socialIcon}>
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </Link>
+                        </div>
                     </nav>
                 </div>
             </Breakpoint>

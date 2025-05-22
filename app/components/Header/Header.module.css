@@ -33,6 +33,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 10px;
 }
 
 .link {
@@ -48,4 +49,34 @@
 .link:hover {
     cursor: pointer;
     background-color: var(--color-grey-light);
+}
+
+.socials {
+    height: 50px;
+    width: auto;
+    padding: 5px;
+    border-radius: var(--border-radius);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    background-color: var(--background-light);
+}
+
+.socialIcon {
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: var(--border-radius);
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--foreground);
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+    transition: var(--transition-fast);
+}
+
+.socialIcon:hover {
+    background-color: var(--background);
 }
