@@ -1,8 +1,9 @@
 :root {
   /* Palette Colori Principali */
-  --color-primary: #328E6E;
-  --color-primary-dark: #256750;
-  --color-primary-light: #E1EEBC;
+  --color-primary: #FE7743;
+  --color-primary-dark: #BB3E00;
+  --color-primary-light: #FAD59A;
+  --color-primary-gradient: linear-gradient(to right, var(--color-primary), var(--color-primary-dark));
 
   --color-grey-light: #f0f0f0;
   --color-grey: #d8d8d8;

@@ -1,11 +1,16 @@
 {
+    "hello": "Ciao",
+    "intro": "Sono **Matteo Cigognini**",
     "projects": "Progetti",
     "contacts": "Contatti",
     "viewWorks": "Vedi lavori",
     "contactMe": "Contattami",
     "roleCaption": "Full Stack Developer in continua evoluzione, sempre alla ricerca di nuove sfide.",
-    "mySkills": "Le mie **Skills**",
-    "skillsCaption": "Nel corso degli anni ho sviluppato competenze pratiche e solide in diversi ambiti del web development. Mi piace imparare in modo continuo e migliorare sia sul lato tecnico che su quello organizzativo. Tra i miei punti di forza ci sono la capacità di adattarmi a progetti diversi, la cura per i dettagli e la volontà di trovare soluzioni pratiche ed efficienti. Conosco bene le tecnologie che utilizzo quotidianamente e sono sempre aperto a nuove sfide per crescere ulteriormente.",
+    "myJourney": "Il mio percorso",
+    "techStack": {
+        "title": "Stack tecnologico",
+        "description": "Competenze solide, orientato al **miglioramento continuo**, attento ai dettagli e capace di **adattarsi a progetti** diversi.\n Aperto a nuove sfide e focalizzato su soluzioni pratiche ed efficienti."
+    },
     "myWorks": "I miei **lavori**",
     "worksCaption": "Qui puoi trovare una selezione dei progetti a cui ho lavorato. Alcuni sono stati realizzati per clienti, altri sono progetti personali o sperimentazioni nate dalla voglia di migliorarmi. Ogni lavoro rappresenta un'opportunità che ho colto per affinare le mie competenze tecniche e creative, cercando sempre di costruire soluzioni funzionali, curate e su misura per le esigenze del progetto.",
     "haveAnIdea": {

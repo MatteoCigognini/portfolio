@@ -10,6 +10,7 @@ import styles from './page.module.css'
 import { SKILLS } from '@/data/skills';
 import ProjectCard from '../components/Cards/ProjectCard';
 import Footer from '../components/Footer/Footer';
+import formatText from '@/utils/textUtils';
 
 export default async function HomePage({ params }) {
   const lang = (await params).lang;
@@ -18,49 +19,40 @@ export default async function HomePage({ params }) {
   return <>
     <Header lang={lang} dict={dict} />
     <MainContainer>
-      {/* Banner */}
-      <section className={styles.hero}>
-        <Breakpoint>
-          <div className={styles.heroContent}>
-            <div className={styles.image}>
-              <img src="/images/profile.webp" className={styles.img} />
-            </div>
-            <h1 className={styles.title}>Matteo <strong>Cigo</strong>gnini</h1>
-            <h2 className={styles.role}>Full Stack Developer</h2>
-            <h2 className={styles.caption}>{dict.roleCaption}</h2>
-            <div className={styles.actions}>
-              <Button variant='grey'>{dict.viewWorks}</Button>
-              <Button>{dict.contactMe}</Button>
-            </div>
+      <Breakpoint>
+        {/* Banner */}
+        <section className={styles.hero}>
+          <div className={styles.container}>
+            <p className={styles.hello}>{dict.hello} 👋</p>
+            <h1 className={styles.title}>{formatText(dict.intro)}</h1>
+            <h2 className={styles.role}>Full Stack Dev • Coffee lover ☕</h2>
           </div>
-        </Breakpoint>
-      </section>
-
-      {/* Skills */}
+          <div className={styles.gallery}>
+            <div className={styles.image}>
+              <img src='/images/profile.webp' alt='Matteo Cigognini' />
+            </div>
+            <div className={styles.image}>
+              <img src='/images/profile-2.webp' alt='Matteo Cigognini' />
+            </div>
+            <div className={styles.image}>
+              <img src='/images/profile-3.webp' alt='Matteo Cigognini' />
+            </div>
+            <div className={styles.image}></div>
+          </div>
+        </section>
+      </Breakpoint>
+      
+      {/* Tecnologie */}
       <Section
-        title={dict.mySkills}
-        description={dict.skillsCaption}
-        variant='grey'
-        columns={2}
-      >
-        <div className={styles.skills}>{SKILLS.map((s, i) => <Tag key={i} text={s} />)}</div>
-      </Section>
-
-      {/* Lavori */}
+        title={dict.techStack.title}
+        description={dict.techStack.description}
+      ></Section>
+      
+      {/* Percorso */}
       <Section
-        title={dict.myWorks}
-        description={dict.worksCaption}
-      >
-        <div className={styles.projects}>{PROJECTS.map((p, i) => <ProjectCard
-          key={`project-${i}`}
-          dict={dict}
-          name={p.name}
-          slug={p.slug}
-          description={dict.projectItems[p.slug].description}
-          skills={p.skills}
-          link={p.link}
-        />)}</div>
-      </Section>
+        title={dict.myJourney}
+        description={''}
+      ></Section>
     </MainContainer>
     <Footer lang={lang} dict={dict} />
   </>
