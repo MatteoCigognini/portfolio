@@ -5,16 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Button from '../Buttons/Button'
 
-export default function Header({ lang, dict }) {
+export default function Header({ lang, dict, activeLink = "home" }) {
     return <>
         <header className={styles.header}>
             <Breakpoint>
                 <div className={styles.headerContainer}>
                     <h1 className={styles.title}>&lt;<strong>Cigo</strong>&gt;</h1>
                     <nav className={styles.nav}>
-                        <Link href={`/${lang}`} className={styles.link}>Home</Link>
-                        <Link href={`/${lang}/projects`} className={styles.link}>{dict.projects}</Link>
-                        <Link href={`/${lang}/blog`} className={styles.link}>Blog</Link>
+                        <Link href={`/${lang}`} className={`${styles.link} ${activeLink === 'home' ? styles.active : ''}`}>Home</Link>
+                        <Link href={`/${lang}/projects`} className={`${styles.link} ${activeLink === 'projects' ? styles.active : ''}`}>{dict.projects.title}</Link>
+                        <Link href={`/${lang}/blog`} className={`${styles.link} ${activeLink === 'blog' ? styles.active : ''}`}>Blog</Link>
                         <Button variant='primary'>{dict.contactMe}</Button>
 
                         {/* Social */}

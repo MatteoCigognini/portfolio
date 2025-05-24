@@ -72,20 +72,48 @@
   object-position: center;
 }
 
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .projects {
-    grid-template-columns: 1fr 1fr;
-  }
+/* Tecnologie */
+.technologies {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  animation: var(--animation-slide-down);
+}
 
-  .skills {
-    justify-content: flex-start;
-    gap: 10px;
+/* Responsive */
+@media screen and (max-width: 1199px) {
+  .technologies {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media screen and (max-width: 480px) {
-  .projects {
+@media screen and (max-width: 991px) {
+  .technologies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 20px 0;
     grid-template-columns: 1fr;
+  }
+
+  .hero .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .hero .container .title {
+    font-size: var(--font-size-xl);
+  }
+
+  .hero .container .hello, .hero .container .role {
+    font-size: var(--font-size-md);
+  }
+
+  .technologies {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

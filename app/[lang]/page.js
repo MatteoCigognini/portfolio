@@ -1,16 +1,13 @@
-import { PROJECTS } from '@/data/projects';
 import Breakpoint from '../components/Breakpoint/Breakpoint';
-import Button from '../components/Buttons/Button';
 import MainContainer from '../components/Containers/MainContainer';
 import Header from '../components/Header/Header';
 import Section from '../components/Sections/Section';
-import Tag from '../components/Tags/Tag';
 import { getDictionary } from './dictionaries';
 import styles from './page.module.css'
-import { SKILLS } from '@/data/skills';
-import ProjectCard from '../components/Cards/ProjectCard';
 import Footer from '../components/Footer/Footer';
 import formatText from '@/utils/textUtils';
+import { TECHNOLOGIES, TOOLS } from '@/data/technologies';
+import TechnologyCard from '../components/Cards/TechnologyCard';
 
 export default async function HomePage({ params }) {
   const lang = (await params).lang;
@@ -41,17 +38,56 @@ export default async function HomePage({ params }) {
           </div>
         </section>
       </Breakpoint>
-      
-      {/* Tecnologie */}
+
+      {/* Stack tecnologico */}
       <Section
         title={dict.techStack.title}
         description={dict.techStack.description}
-      ></Section>
-      
+      >
+        <div className={styles.technologies}>{TECHNOLOGIES.filter(t => !t.learning).map(t => <TechnologyCard
+          key={t.slug}
+          dict={dict}
+          name={t.name}
+          description=''
+          logo={`/images/technologies/${t.slug}.webp`}
+          level={t.level}
+        />)}</div>
+      </Section>
+
+      {/* Tecnologie che sto imparando */}
+      <Section
+        title={dict.techStack.learning}
+        description={''}
+      >
+        <div className={styles.technologies}>{TECHNOLOGIES.filter(t => t.learning).map(t => <TechnologyCard
+          key={t.slug}
+          dict={dict}
+          name={t.name}
+          description=''
+          logo={`/images/technologies/${t.slug}.webp`}
+          level={t.level}
+        />)}</div>
+      </Section>
+
+      {/* Tools */}
+      <Section
+        title={dict.tools.title}
+        description={dict.tools.description}
+      >
+        <div className={styles.technologies}>{TOOLS.map(t => <TechnologyCard
+          key={t.slug}
+          dict={dict}
+          name={t.name}
+          description=''
+          logo={`/images/technologies/${t.slug}.webp`}
+          level={t.level}
+        />)}</div>
+      </Section>
+
       {/* Percorso */}
       <Section
-        title={dict.myJourney}
-        description={''}
+        title={dict.journey.title}
+        description={dict.journey.description}
       ></Section>
     </MainContainer>
     <Footer lang={lang} dict={dict} />

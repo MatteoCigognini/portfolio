@@ -1,15 +1,39 @@
 {
     "hello": "Ciao",
     "intro": "Sono **Matteo Cigognini**",
-    "projects": "Progetti",
     "contacts": "Contatti",
     "viewWorks": "Vedi lavori",
     "contactMe": "Contattami",
     "roleCaption": "Full Stack Developer in continua evoluzione, sempre alla ricerca di nuove sfide.",
-    "myJourney": "Il mio percorso",
     "techStack": {
-        "title": "Stack tecnologico",
-        "description": "Competenze solide, orientato al **miglioramento continuo**, attento ai dettagli e capace di **adattarsi a progetti** diversi.\n Aperto a nuove sfide e focalizzato su soluzioni pratiche ed efficienti."
+        "title": "Tech Stack",
+        "description": "Competenze solide, orientato al **miglioramento continuo**, attento ai dettagli e capace di **adattarsi a progetti** diversi.\n Aperto a nuove sfide e focalizzato su soluzioni pratiche ed efficienti.",
+        "learning": "Altre tecnologie che sto studiando"
+    },
+    "tools": {
+        "title": "Tools",
+        "description": ""
+    },
+    "journey": {
+        "title": "Il mio percorso",
+        "description": "La mia storia in breve, da come è nata la voglia di intraprendere questa carriera."
+    },
+    "projects": {
+        "title": "Progetti",
+        "items": {
+            "sognando-casa": {
+                "description": "E-commerce che vende materiale edile (pricipalmente piastrelle), ho realizzato l'intera struttura dal frontend al backend"
+            },
+            "dimora": {
+                "description": "E-commerce che vende materiale edile (pricipalmente piastrelle), ho realizzato l'intera struttura dal frontend al backend"
+            },
+            "builder-be-shoppy": {
+                "description": "Gestionale centralizzato per gli e-commerce, creazione prodotti, gestione clienti, ordini, magazzino, pagamenti, spedizioni"
+            },
+            "reasy-gen": {
+                "description": "Generatore di contenuti online strutturato ad applicazioni, ancora in fase di sviluppo"
+            }
+        }
     },
     "myWorks": "I miei **lavori**",
     "worksCaption": "Qui puoi trovare una selezione dei progetti a cui ho lavorato. Alcuni sono stati realizzati per clienti, altri sono progetti personali o sperimentazioni nate dalla voglia di migliorarmi. Ogni lavoro rappresenta un'opportunità che ho colto per affinare le mie competenze tecniche e creative, cercando sempre di costruire soluzioni funzionali, curate e su misura per le esigenze del progetto.",
@@ -17,18 +41,7 @@
         "title": "Hai un'**idea**? Realizziamola.",
         "description": "Non esitate a contattarmi se avete bisogno di uno sviluppatore. Che si tratti di un sito web, di un'app web o di una posizione a tempo pieno, sono sempre disponibile a parlare con voi."
     },
-    "projectItems": {
-        "sognando-casa": {
-            "description": "E-commerce che vende materiale edile (pricipalmente piastrelle), ho realizzato l'intera struttura dal frontend al backend"
-        },
-        "dimora": {
-            "description": "E-commerce che vende materiale edile (pricipalmente piastrelle), ho realizzato l'intera struttura dal frontend al backend"
-        },
-        "builder-be-shoppy": {
-            "description": "Gestionale centralizzato per gli e-commerce, creazione prodotti, gestione clienti, ordini, magazzino, pagamenti, spedizioni"
-        },
-        "reasy-gen": {
-            "description": "Generatore di contenuti online strutturato ad applicazioni, ancora in fase di sviluppo"
-        }
+    "fields": {
+        "level": "Livello"
     }
 }

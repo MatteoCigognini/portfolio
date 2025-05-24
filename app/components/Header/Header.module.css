@@ -5,7 +5,12 @@
     top: 0;
     left: 0;
     z-index: 50;
-    background-color: var(--background);
+    background: rgba(255, 255, 255, 0.8);
+    /* trasparenza */
+    backdrop-filter: blur(10px);
+    /* sfocatura */
+    -webkit-backdrop-filter: blur(10px);
+    /* per Safari */
 }
 
 .headerContainer {
@@ -46,7 +51,13 @@
     transition: var(--transition-fast);
 }
 
-.link:hover {
+.link.active {
+    font-weight: 700;
+    color: var(--foreground);
+    background: var(--color-grey-light);
+}
+
+.link:not(.active):hover {
     cursor: pointer;
     background-color: var(--color-grey-light);
 }
