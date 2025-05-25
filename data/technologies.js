@@ -61,7 +61,7 @@ export const TECHNOLOGIES = [
     },
     {
         slug: "mongodb",
-        name: "mongodb",
+        name: "Mongo DB",
         learning: true,
         level: 3
     },

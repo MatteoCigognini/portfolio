@@ -1,9 +1,10 @@
 .projects {
-    height: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  animation: var(--animation-slide-down);
 }
 
 /* Responsive */
@@ -16,7 +17,7 @@
 }
 
 @media screen and (max-width: 768px) {
-      .projects {
+  .projects {
     grid-template-columns: 1fr;
   }
 }
