@@ -82,6 +82,16 @@
   animation: var(--animation-slide-down);
 }
 
+/* Timeline */
+.timeline {
+    height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  animation: var(--animation-slide-down);
+}
+
 /* Responsive */
 @media screen and (max-width: 1199px) {
   .technologies {

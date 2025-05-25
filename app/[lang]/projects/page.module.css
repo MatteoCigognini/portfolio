@@ -1,0 +1,22 @@
+.projects {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+      .projects {
+    grid-template-columns: 1fr;
+  }
+}

@@ -8,6 +8,7 @@ import Footer from '../components/Footer/Footer';
 import formatText from '@/utils/textUtils';
 import { TECHNOLOGIES, TOOLS } from '@/data/technologies';
 import TechnologyCard from '../components/Cards/TechnologyCard';
+import TimelineCard from '../components/Cards/TimelineCard';
 
 export default async function HomePage({ params }) {
   const lang = (await params).lang;
@@ -83,12 +84,6 @@ export default async function HomePage({ params }) {
           level={t.level}
         />)}</div>
       </Section>
-
-      {/* Percorso */}
-      <Section
-        title={dict.journey.title}
-        description={dict.journey.description}
-      ></Section>
     </MainContainer>
     <Footer lang={lang} dict={dict} />
   </>
