@@ -84,7 +84,7 @@
 
 /* Timeline */
 .timeline {
-    height: auto;
+  height: auto;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -119,7 +119,8 @@
     font-size: var(--font-size-xl);
   }
 
-  .hero .container .hello, .hero .container .role {
+  .hero .container .hello,
+  .hero .container .role {
     font-size: var(--font-size-md);
   }
 

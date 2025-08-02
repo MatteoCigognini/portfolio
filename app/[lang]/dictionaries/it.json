@@ -55,6 +55,9 @@
             },
             "reasy-gen": {
                 "description": "Generatore di contenuti online strutturato ad applicazioni, ancora in fase di sviluppo"
+            },
+            "cardbit": {
+                "description": "Una Webapp per la generazione di flashcards e quiz da appunti e video"
             }
         }
     },

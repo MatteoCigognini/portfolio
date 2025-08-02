@@ -4,7 +4,9 @@ import Tag from '../Tags/Tag'
 
 export default function ProjectCard({ name, description, skills, link, image }) {
     return <div className={styles.card}>
-        <div className={styles.image}></div>
+        <div className={styles.image}>
+            {image && <img src={image} className={styles.img} alt={name} />}
+        </div>
         <div className={styles.content}>
             <h2 className={styles.name}>{name}</h2>
             <p className={styles.description}>{description}</p>

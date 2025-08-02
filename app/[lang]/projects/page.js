@@ -24,6 +24,7 @@ export default async function Page({ params }) {
                     description={dict.projects.items[p.slug].description}
                     skills={p.skills}
                     link={p.link}
+                    image={p.showImage ? `/images/projects/${p.slug}.webp` : undefined}
                 />)}</div>
             </Section>
         </MainContainer>

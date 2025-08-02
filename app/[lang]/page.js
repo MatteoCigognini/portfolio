@@ -8,7 +8,6 @@ import Footer from '../components/Footer/Footer';
 import formatText from '@/utils/textUtils';
 import { TECHNOLOGIES, TOOLS } from '@/data/technologies';
 import TechnologyCard from '../components/Cards/TechnologyCard';
-import TimelineCard from '../components/Cards/TimelineCard';
 
 export default async function HomePage({ params }) {
   const lang = (await params).lang;
