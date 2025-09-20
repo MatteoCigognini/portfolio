@@ -68,21 +68,6 @@ export default async function HomePage({ params }) {
           level={t.level}
         />)}</div>
       </Section>
-
-      {/* Tools */}
-      <Section
-        title={dict.tools.title}
-        description={dict.tools.description}
-      >
-        <div className={styles.technologies}>{TOOLS.map(t => <TechnologyCard
-          key={t.slug}
-          dict={dict}
-          name={t.name}
-          description=''
-          logo={`/images/technologies/${t.slug}.webp`}
-          level={t.level}
-        />)}</div>
-      </Section>
     </MainContainer>
     <Footer lang={lang} dict={dict} />
   </>

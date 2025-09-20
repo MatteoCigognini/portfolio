@@ -1,25 +1,7 @@
 export const TECHNOLOGIES = [
     {
-        slug: "html",
-        name: "HTML",
-        learning: false,
-        level: 5
-    },
-    {
-        slug: "css",
-        name: "CSS",
-        learning: false,
-        level: 5
-    },
-    {
         slug: "js",
         name: "JavaScript",
-        learning: false,
-        level: 5
-    },
-    {
-        slug: "jquery",
-        name: "jQuery",
         learning: false,
         level: 5
     },
@@ -42,12 +24,6 @@ export const TECHNOLOGIES = [
         level: 5
     },
     {
-        slug: "codeigniter",
-        name: "CodeIgniter 4",
-        learning: false,
-        level: 5
-    },
-    {
         slug: "mysql",
         name: "MySQL",
         learning: false,
@@ -60,6 +36,21 @@ export const TECHNOLOGIES = [
         level: 3
     },
     {
+        slug: "git",
+        name: "Git",
+        level: 5
+    },
+    {
+        slug: "npm",
+        name: "Node Package Manager",
+        level: 4
+    },
+    {
+        slug: "aws",
+        name: "AWS",
+        level: 4
+    },
+    {
         slug: "mongodb",
         name: "Mongo DB",
         learning: true,
@@ -68,7 +59,7 @@ export const TECHNOLOGIES = [
     {
         slug: "nodejs",
         name: "Node.js",
-        learning: true,
+        learning: false,
         level: 3
     },
     {
@@ -90,21 +81,6 @@ export const TOOLS = [
         slug: "vs-code",
         name: "Visual Studio Code",
         level: 5
-    },
-    {
-        slug: "git",
-        name: "Git",
-        level: 5
-    },
-    {
-        slug: "npm",
-        name: "Node Package Manager",
-        level: 4
-    },
-    {
-        slug: "aws",
-        name: "AWS",
-        level: 4
     },
     {
         slug: "photoshop",

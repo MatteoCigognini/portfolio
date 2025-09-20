@@ -53,7 +53,7 @@
 
   /* Ombre */
   --shadow-soft: 0px 0px 20px 0px #0000000f;
-  --shadow-light: 0px 0px 0px #0000001a;
+  --shadow-light: 0px 0px 15px 0px #0000001a;
 
   /* Animazioni */
   --animation-slide-down: slide-down 300ms ease-out forwards;
