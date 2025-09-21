@@ -8,6 +8,7 @@ import Footer from '../components/Footer/Footer';
 import formatText from '@/utils/textUtils';
 import { TECHNOLOGIES, TOOLS } from '@/data/technologies';
 import TechnologyCard from '../components/Cards/TechnologyCard';
+import Tag from '../components/Tags/Tag';
 
 export default async function HomePage({ params }) {
   const lang = (await params).lang;
@@ -37,37 +38,19 @@ export default async function HomePage({ params }) {
             <div className={styles.image}></div>
           </div>
         </section>
+
+        {/* Stack tecnologico */}
+        <div className={styles.technologies}>
+          {TECHNOLOGIES.filter(t => !t.learning).map((t, i) => <Tag
+            key={t.slug}
+            image={{
+              url: `/images/technologies/${t.slug}.webp`,
+              alt: t.name
+            }}
+            text={t.name}
+          />)}
+        </div>
       </Breakpoint>
-
-      {/* Stack tecnologico */}
-      <Section
-        title={dict.techStack.title}
-        description={dict.techStack.description}
-      >
-        <div className={styles.technologies}>{TECHNOLOGIES.filter(t => !t.learning).map(t => <TechnologyCard
-          key={t.slug}
-          dict={dict}
-          name={t.name}
-          description=''
-          logo={`/images/technologies/${t.slug}.webp`}
-          level={t.level}
-        />)}</div>
-      </Section>
-
-      {/* Tecnologie che sto imparando */}
-      <Section
-        title={dict.techStack.learning}
-        description={''}
-      >
-        <div className={styles.technologies}>{TECHNOLOGIES.filter(t => t.learning).map(t => <TechnologyCard
-          key={t.slug}
-          dict={dict}
-          name={t.name}
-          description=''
-          logo={`/images/technologies/${t.slug}.webp`}
-          level={t.level}
-        />)}</div>
-      </Section>
     </MainContainer>
     <Footer lang={lang} dict={dict} />
   </>
