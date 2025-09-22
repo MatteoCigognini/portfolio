@@ -42,7 +42,7 @@
     },
     "projects": {
         "title": "Progetti",
-        "description": "Qui puoi trovare una selezione dei **progetti** a cui ho lavorato. Alcuni sono stati realizzati per **clienti**, altri sono progetti **personali o sperimentazioni** nate dalla voglia di migliorarmi. Ogni lavoro rappresenta un'opportunità che ho colto per affinare le mie competenze tecniche e creative, cercando sempre di costruire soluzioni funzionali, curate e su misura per le esigenze del progetto.",
+        "description": "Qui puoi trovare una selezione dei **progetti** a cui ho lavorato.",
         "items": {
             "sognando-casa": {
                 "description": "E-commerce che vende materiale edile (pricipalmente piastrelle), ho realizzato l'intera struttura dal frontend al backend"
@@ -59,6 +59,12 @@
             "cardbit": {
                 "description": "Una Webapp per la generazione di flashcards e quiz da appunti e video"
             }
+        }
+    },
+    "blog": {
+        "lastPosts": {
+            "title": "Ultimi articoli",
+            "description": "Leggi cosa ho scritto per te negli ultimi giorni"
         }
     },
     "haveAnIdea": {

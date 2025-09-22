@@ -51,6 +51,12 @@ export default async function HomePage({ params }) {
           />)}
         </div>
       </Breakpoint>
+
+      {/* Servizi */}
+      <Section title={dict.projects.title} description={dict.projects.description}></Section>
+
+      {/* Ultimi articoli */}
+      <Section title={dict.blog.lastPosts.title} description={dict.blog.lastPosts.description}></Section>
     </MainContainer>
     <Footer lang={lang} dict={dict} />
   </>

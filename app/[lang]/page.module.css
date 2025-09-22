@@ -76,6 +76,7 @@
 .technologies {
   height: auto;
   width: 100%;
+  margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
