@@ -61,6 +61,7 @@ export default async function HomePage({ params }) {
       >
         <div className={styles.works}>{WORKS.map(w => <WorkCard
           key={w.slug}
+          dict={dict}
           name={w.name}
           description={dict.works.items[w.slug].description}
           link={w.link}

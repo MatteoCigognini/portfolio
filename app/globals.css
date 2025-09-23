@@ -45,7 +45,7 @@
   --foreground-light: #636363;
 
   /* Bordi */
-  --border-radius: 10px;
+  --border-radius: 30px;
 
   /* Transizioni */
   --transition-slow: all 0.4s ease-in-out;

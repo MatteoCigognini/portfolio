@@ -32,7 +32,7 @@
 
 .content {
     height: auto;
-    padding: 20px 0;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,24 +52,6 @@
     font-size: var(--font-size-md);
     font-weight: 400;
     color: var(--foreground-light);
-}
-
-.skills {
-    height: auto;
-    width: 100%;
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
-}
-
-.skills .skill {
-    padding: 5px 10px;
-    font-size: var(--font-size-sm);
-    font-weight: 400;
-    background-color: var(--background-light);
 }
 
 .link {
