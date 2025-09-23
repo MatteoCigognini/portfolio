@@ -85,6 +85,14 @@
   animation: var(--animation-slide-down);
 }
 
+/* Lavori */
+.works {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* Timeline */
 .timeline {
   height: auto;

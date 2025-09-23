@@ -40,9 +40,9 @@
             }
         }
     },
-    "projects": {
-        "title": "Progetti",
-        "description": "Qui puoi trovare una selezione dei **progetti** a cui ho lavorato.",
+    "works": {
+        "title": "Lavori",
+        "description": "I miei lavori principali su cui ho maturato **6+ anni di esperienza**.",
         "items": {
             "sognando-casa": {
                 "description": "E-commerce che vende materiale edile (pricipalmente piastrelle), ho realizzato l'intera struttura dal frontend al backend"
@@ -52,7 +52,13 @@
             },
             "builder-be-shoppy": {
                 "description": "Gestionale centralizzato per gli e-commerce, creazione prodotti, gestione clienti, ordini, magazzino, pagamenti, spedizioni"
-            },
+            }
+        }
+    },
+    "projects": {
+        "title": "Progetti",
+        "description": "Qui puoi trovare una selezione dei **progetti** a cui ho lavorato.",
+        "items": {
             "reasy-gen": {
                 "description": "Generatore di contenuti online strutturato ad applicazioni, ancora in fase di sviluppo"
             },

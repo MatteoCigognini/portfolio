@@ -9,6 +9,8 @@ import formatText from '@/utils/textUtils';
 import { TECHNOLOGIES, TOOLS } from '@/data/technologies';
 import TechnologyCard from '../components/Cards/TechnologyCard';
 import Tag from '../components/Tags/Tag';
+import { WORKS } from '@/data/works';
+import WorkCard from '../components/Cards/WorkCard';
 
 export default async function HomePage({ params }) {
   const lang = (await params).lang;
@@ -52,8 +54,27 @@ export default async function HomePage({ params }) {
         </div>
       </Breakpoint>
 
-      {/* Servizi */}
-      <Section title={dict.projects.title} description={dict.projects.description}></Section>
+      {/* Lavori */}
+      <Section
+        title={dict.works.title}
+        description={dict.works.description}
+      >
+        <div className={styles.works}>{WORKS.map(w => <WorkCard
+          key={w.slug}
+          name={w.name}
+          description={dict.works.items[w.slug].description}
+          link={w.link}
+          image={w.showImage ? `/images/projects/${w.slug}.webp` : undefined}
+        />)}</div>
+      </Section>
+
+      {/* Progetti */}
+      <Section
+        title={dict.projects.title}
+        description={dict.projects.description}
+      >
+
+      </Section>
 
       {/* Ultimi articoli */}
       <Section title={dict.blog.lastPosts.title} description={dict.blog.lastPosts.description}></Section>
