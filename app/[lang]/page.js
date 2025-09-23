@@ -64,7 +64,7 @@ export default async function HomePage({ params }) {
           name={w.name}
           description={dict.works.items[w.slug].description}
           link={w.link}
-          image={w.showImage ? `/images/projects/${w.slug}.webp` : undefined}
+          image={w.showImage ? `/images/works/${w.slug}.webp` : undefined}
         />)}</div>
       </Section>
 
