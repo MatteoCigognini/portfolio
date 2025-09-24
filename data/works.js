@@ -16,10 +16,10 @@ export const WORKS = [
         showImage: true
     },
     {
-        name: "Builder | Be-Shoppy",
-        slug: "builder-be-shoppy",
+        name: "Be-Shoppy",
+        slug: "be-shoppy",
         category: "erp",
         skills: ["Next.js", "React", "PHP", "MySQL", "HTML", "CSS", "AWS"],
-        showImage: false
+        showImage: true
     }
 ];

@@ -19,7 +19,6 @@ export default function WorkCard({ dict, name, description, link, image }) {
                     fontSize: 'var(--font-size-sm)'
                 }}>{dict.open} <FontAwesomeIcon icon={faExternalLink} /></Button>
             </Link>}
-            {link === undefined && <span className={styles.noLink}>--</span>}
         </div>
     </div>
 }

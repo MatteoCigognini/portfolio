@@ -51,7 +51,7 @@
             "dimora": {
                 "description": "E-commerce che vende materiale edile (pricipalmente piastrelle), ho realizzato l'intera struttura dal frontend al backend"
             },
-            "builder-be-shoppy": {
+            "be-shoppy": {
                 "description": "Gestionale centralizzato per gli e-commerce, creazione prodotti, gestione clienti, ordini, magazzino, pagamenti, spedizioni"
             }
         }
