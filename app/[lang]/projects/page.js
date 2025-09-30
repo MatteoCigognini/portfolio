@@ -21,10 +21,9 @@ export default async function Page({ params }) {
                 <div className={styles.projects}>{PROJECTS.map((p, i) => <ProjectCard
                     key={i}
                     name={p.name}
+                    slug={p.slug}
                     description={dict.projects.items[p.slug].description}
-                    skills={p.skills}
                     link={p.link}
-                    image={p.showImage ? `/images/projects/${p.slug}.webp` : undefined}
                 />)}</div>
             </Section>
         </MainContainer>

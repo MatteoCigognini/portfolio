@@ -94,6 +94,15 @@
   animation: var(--animation-slide-down);
 }
 
+/* Progetti */
+.projects {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  animation: var(--animation-slide-down);
+}
+
 /* Timeline */
 .timeline {
   height: auto;
@@ -105,18 +114,6 @@
 }
 
 /* Responsive */
-@media screen and (max-width: 1199px) {
-  .technologies {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .technologies {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .hero {
     padding: 20px 0;
@@ -136,7 +133,8 @@
     font-size: var(--font-size-md);
   }
 
-  .technologies {
-    grid-template-columns: repeat(2, 1fr);
+  .technologies,
+  .projects {
+    grid-template-columns: 1fr;
   }
 }

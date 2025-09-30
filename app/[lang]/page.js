@@ -11,6 +11,8 @@ import TechnologyCard from '../components/Cards/TechnologyCard';
 import Tag from '../components/Tags/Tag';
 import { WORKS } from '@/data/works';
 import WorkCard from '../components/Cards/WorkCard';
+import { PROJECTS } from '@/data/projects';
+import ProjectCard from '../components/Cards/ProjectCard';
 
 export default async function HomePage({ params }) {
   const lang = (await params).lang;
@@ -74,7 +76,13 @@ export default async function HomePage({ params }) {
         title={dict.projects.title}
         description={dict.projects.description}
       >
-
+        <div className={styles.projects}>{PROJECTS.map((p, i) => <ProjectCard
+          key={i}
+          name={p.name}
+          slug={p.slug}
+          description={dict.projects.items[p.slug].description}
+          link={p.link}
+        />)}</div>
       </Section>
 
       {/* Ultimi articoli */}

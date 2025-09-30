@@ -1,18 +1,15 @@
+"use client";
 import Link from 'next/link'
 import styles from './ProjectCard.module.css'
-import Tag from '../Tags/Tag'
 
-export default function ProjectCard({ name, description, skills, link, image }) {
+export default function ProjectCard({ name, slug, description, link }) {
     return <div className={styles.card}>
-        <div className={styles.image}>
-            {image && <img src={image} className={styles.img} alt={name} />}
+        <div className={styles.icon}>
+            <img src={`/images/projects/${slug}.webp`} className={styles.img} />
         </div>
         <div className={styles.content}>
-            <h2 className={styles.name}>{name}</h2>
-            <p className={styles.description}>{description}</p>
-            <div className={styles.skills}>{skills.map((s, i) => <div key={i} className={styles.skill}>{s}</div>)}</div>
-            {link !== undefined && <Link href={link} className={styles.link} target='_blank'>Apri</Link>}
-            {link === undefined && <span className={styles.noLink}>--</span>}
+            <h2 className={styles.title}>{name}</h2>
+            {description && <p className={styles.description}>{description}</p>}
         </div>
     </div>
 }
