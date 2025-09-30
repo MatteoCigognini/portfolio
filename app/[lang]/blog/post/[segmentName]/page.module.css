@@ -1,0 +1,35 @@
+.content {
+    height: auto;
+    width: 100%;
+    max-width: 768px;
+}
+
+/* Aside */
+.aside {
+    height: auto;
+    width: 100%;
+}
+
+/* Pubblicità */
+.adSection {
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: var(--border-radius);
+    animation: var(--animation--slide-down);
+    background-color: var(--background-color);
+}
+
+.adSection .title {
+    font-size: var(--font-size--small);
+    font-weight: 300;
+    color: var(--font-color--dark);
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

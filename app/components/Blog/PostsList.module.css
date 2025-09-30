@@ -1,0 +1,12 @@
+.posts {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+}
+
+.posts a {
+    color: inherit;
+    text-decoration: none;
+}

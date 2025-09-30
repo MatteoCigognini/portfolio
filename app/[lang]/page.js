@@ -13,6 +13,7 @@ import { WORKS } from '@/data/works';
 import WorkCard from '../components/Cards/WorkCard';
 import { PROJECTS } from '@/data/projects';
 import ProjectCard from '../components/Cards/ProjectCard';
+import PostsList from '../components/Blog/PostsList';
 
 export default async function HomePage({ params }) {
   const lang = (await params).lang;
@@ -86,7 +87,9 @@ export default async function HomePage({ params }) {
       </Section>
 
       {/* Ultimi articoli */}
-      <Section title={dict.blog.lastPosts.title} description={dict.blog.lastPosts.description}></Section>
+      <Section title={dict.blog.lastPosts.title} description={dict.blog.lastPosts.description}>
+        <PostsList lang={lang} />
+      </Section>
     </MainContainer>
     <Footer lang={lang} dict={dict} />
   </>

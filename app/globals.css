@@ -45,15 +45,15 @@
   --foreground-light: #636363;
 
   /* Bordi */
-  --border-radius: 30px;
+  --border-radius: 10px;
 
   /* Transizioni */
   --transition-slow: all 0.4s ease-in-out;
   --transition-fast: all 0.2s ease-in-out;
 
   /* Ombre */
-  --shadow-soft: 0px 0px 20px 0px #0000000f;
   --shadow-light: 0px 0px 15px 0px #0000001a;
+  --shadow-normal: 0px 0px 20px 0px #0000000f;
 
   /* Animazioni */
   --animation-slide-down: slide-down 300ms ease-out forwards;
@@ -80,7 +80,9 @@
 }
 
 @keyframes bouncing {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
   }
 
