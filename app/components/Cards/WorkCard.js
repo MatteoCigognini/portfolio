@@ -12,13 +12,6 @@ export default function WorkCard({ dict, name, description, link, image }) {
         <div className={styles.content}>
             <h2 className={styles.name}>{name}</h2>
             <p className={styles.description}>{description}</p>
-            {link !== undefined && <Link href={link} className={styles.link} target='_blank'>
-                <Button variant='grey' style={{ 
-                    height: '35px',
-                    width: '100%', 
-                    fontSize: 'var(--font-size-sm)'
-                }}>{dict.open} <FontAwesomeIcon icon={faExternalLink} /></Button>
-            </Link>}
         </div>
     </div>
 }

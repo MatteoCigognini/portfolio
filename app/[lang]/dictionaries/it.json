@@ -61,13 +61,13 @@
         "description": "Qui puoi trovare una selezione dei **progetti** a cui ho lavorato.",
         "items": {
             "reasy": {
-                "description": "Generatore di contenuti online strutturato ad applicazioni, ancora in fase di sviluppo"
+                "description": "Reasy è un generatore online versatile che ti permette di creare password sicure, UUID, palette di colori, numeri e nomi originali. Uno strumento veloce e intuitivo, ideale per chi cerca soluzioni pratiche e creative in pochi secondi."
             },
             "cardbit": {
-                "description": "Una Webapp per la generazione di flashcards e quiz da appunti e video"
+                "description": "Cardbit genera flashcards intelligenti a partire da video, documenti o appunti, trasformando informazioni complesse in schede semplici e chiare. È lo strumento perfetto per studenti e professionisti che vogliono memorizzare più facilmente e rendere lo studio davvero efficace."
             },
             "quizzly": {
-                "description": "Una Webapp per la generazione di flashcards e quiz da appunti e video"
+                "description": "Quizzly ti consente di creare facilmente quiz interattivi e divertenti da condividere sui social. Un modo semplice ed efficace per aumentare l’engagement, stimolare la curiosità e rafforzare la connessione con la tua community."
             }
         }
     },
