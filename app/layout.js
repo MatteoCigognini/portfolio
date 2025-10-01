@@ -1,12 +1,12 @@
-import { Space_Grotesk } from 'next/font/google';
+import { Mona_Sans } from 'next/font/google';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({
+const fontClass = Mona_Sans({
   weight: ['400', '500', '600', '700'],
   style: ['normal'],
   subsets: ['latin'],
-  display: 'auto',
+  display: 'swap',
 });
 
 export const metadata = {
@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={spaceGrotesk.className}>
+      <body className={fontClass.className}>
         {children}
       </body>
     </html>

@@ -1,3 +1,5 @@
+"use client";
+
 import styles from './Breakpoint.module.css'
 
 export default function Breakpoint({ children }) {

@@ -7,9 +7,10 @@ import Footer from '@/app/components/Footer/Footer';
 export default async function Page({ params }) {
     const lang = (await params).lang;
     const dict = await getDictionary(lang);
+    const parsedDict = JSON.parse(JSON.stringify(dict));
 
     return <>
-        <Header lang={lang} dict={dict} activeLink="blog" />
+        <Header lang={lang} dict={parsedDict} activeLink="blog" />
         <MainContainer></MainContainer>
         <Footer lang={lang} dict={dict} />
     </>

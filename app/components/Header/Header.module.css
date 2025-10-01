@@ -91,3 +91,30 @@
 .socialIcon:hover {
     background-color: var(--background);
 }
+
+/* Menu mobile */
+.mobileMenuButton {
+    height: 50px;
+    width: 50px;
+    border-radius: var(--border-radius);
+    border: 0;
+    display: none;
+    font-size: var(--font-size-md);
+    background-color: var(--background);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .headerContainer {
+        grid-template-columns: auto auto 1fr;
+    }
+
+    .noMobile {
+        display: none;
+    }
+
+    .mobileMenuButton {
+        display: grid;
+        place-items: center;
+    }
+}

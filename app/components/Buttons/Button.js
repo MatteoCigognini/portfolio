@@ -1,4 +1,5 @@
-'use client'
+"use client";
+
 import styles from './Button.module.css'
 
 export default function Button({ title, children, variant = 'primary', disabled = false, onClick, style = {} }) {

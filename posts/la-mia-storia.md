@@ -3,15 +3,15 @@ title: "La mia storia"
 slug: "la-mia-storia"
 category: "web-development"
 description: "Un breve riassunto del mio percorso"
-image: ""
+image: "https://matteocigognini.it/images/posts/la-mia-storia/cover.webp"
 author: "cigognini.matteo"
-tags: ['Database', 'MySQL', 'MongoDB', 'PostgreSQL', 'DB']
-date: "2024-06-16"
+tags: []
+date: "2025-02-16"
 ---
 
 # Il mio percorso da sviluppatore: tra codice, caffè e musica
 
-Ciao! Mi chiamo [Tuo Nome] e fin da bambino ho avuto una grande passione per creare cose. Tutto è iniziato intorno ai 9 anni, quando mi divertivo a fare **mod per Minecraft**. Quel piccolo mondo digitale era il mio primo laboratorio: provavo, sbagliavo, imparavo e ricominciavo da capo. Pian piano, quella curiosità si è trasformata in una vera e propria passione per lo **sviluppo web**.
+Ciao! Mi chiamo **Matteo** e fin da bambino ho avuto una grande passione per creare cose. Tutto è iniziato intorno ai 9 anni, quando mi divertivo a fare **mod per Minecraft**. Quel piccolo mondo digitale era il mio primo laboratorio: provavo, sbagliavo, imparavo e ricominciavo da capo. Pian piano, quella curiosità si è trasformata in una vera e propria passione per lo **sviluppo web**.
 
 ---
 

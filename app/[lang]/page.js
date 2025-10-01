@@ -7,7 +7,6 @@ import styles from './page.module.css'
 import Footer from '../components/Footer/Footer';
 import formatText from '@/utils/textUtils';
 import { TECHNOLOGIES, TOOLS } from '@/data/technologies';
-import TechnologyCard from '../components/Cards/TechnologyCard';
 import Tag from '../components/Tags/Tag';
 import { WORKS } from '@/data/works';
 import WorkCard from '../components/Cards/WorkCard';
@@ -18,9 +17,10 @@ import PostsList from '../components/Blog/PostsList';
 export default async function HomePage({ params }) {
   const lang = (await params).lang;
   const dict = await getDictionary(lang);
+  const parsedDict = JSON.parse(JSON.stringify(dict));
 
   return <>
-    <Header lang={lang} dict={dict} />
+    <Header lang={lang} dict={parsedDict} />
     <MainContainer>
       <Breakpoint>
         {/* Banner */}

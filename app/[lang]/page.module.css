@@ -104,16 +104,6 @@
   animation: var(--animation-slide-down);
 }
 
-/* Timeline */
-.timeline {
-  height: auto;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-  animation: var(--animation-slide-down);
-}
-
 /* Responsive */
 @media screen and (max-width: 768px) {
   .hero {
@@ -134,7 +124,20 @@
     font-size: var(--font-size-md);
   }
 
-  .technologies,
+  .technologies {
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10px;
+    overflow-y: scroll;
+  }
+
+  .technologies::-webkit-scrollbar {
+    display: none;
+  }
+
+  .works,
   .projects {
     grid-template-columns: 1fr;
   }

@@ -10,9 +10,10 @@ import Section from '@/app/components/Sections/Section';
 export default async function Page({ params }) {
     const lang = (await params).lang;
     const dict = await getDictionary(lang);
+    const parsedDict = JSON.parse(JSON.stringify(dict));
 
     return <>
-        <Header lang={lang} dict={dict} activeLink="projects" />
+        <Header lang={lang} dict={parsedDict} activeLink="projects" />
         <MainContainer>
             <Section
                 title={dict.projects.title}

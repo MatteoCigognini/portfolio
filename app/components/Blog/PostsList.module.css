@@ -10,3 +10,10 @@
     color: inherit;
     text-decoration: none;
 }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .posts {
+        grid-template-columns: 1fr;
+    }
+}
