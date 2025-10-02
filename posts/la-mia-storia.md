@@ -1,5 +1,5 @@
 ---
-title: "La mia storia"
+title: "La mia storia da sviluppatore"
 slug: "la-mia-storia"
 category: "web-development"
 description: "Il mio percorso nello sviluppo software, dall’inizio con la curiosità infantile fino al lavoro come full-stack developer. Una sorta di timeline che mostri come, anno dopo anno, mi sono appassionato sempre di più al mondo del codice e delle tecnologie."
@@ -10,6 +10,8 @@ date: "2025-02-16"
 ---
 
 # La mia storia da sviluppatore
+
+![La mia storia da sviluppatore](https://matteocigognini.it/images/posts/la-mia-storia/cover.webp)
 
 In questo articolo voglio raccontare il mio percorso nello sviluppo software, dall’inizio con la curiosità infantile fino al lavoro come full-stack developer. Una sorta di timeline che mostri come, anno dopo anno, mi sono appassionato sempre di più al mondo del codice e delle tecnologie.
 
