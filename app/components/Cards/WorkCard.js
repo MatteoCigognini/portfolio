@@ -6,9 +6,11 @@ import { faExternalLink } from '@fortawesome/free-solid-svg-icons'
 
 export default function WorkCard({ dict, name, description, link, image }) {
     return <div className={styles.card}>
-        <div className={styles.image}>
-            {image && <img src={image} className={styles.img} alt={name} />}
-        </div>
+        <Link href={link || '#'} target='_blank'>
+            <div className={styles.image}>
+                {image && <img src={image} className={styles.img} alt={name} />}
+            </div>
+        </Link>
         <div className={styles.content}>
             <h2 className={styles.name}>{name}</h2>
             <p className={styles.description}>{description}</p>

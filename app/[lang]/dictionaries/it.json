@@ -15,32 +15,6 @@
         "title": "Tools",
         "description": ""
     },
-    "journey": {
-        "title": "Il mio percorso",
-        "description": "La mia storia in breve, da come è nata la voglia di intraprendere questa carriera.",
-        "items": {
-            "2000": {
-                "title": "Nato a Milano",
-                "description": "Ciao waiodjwaidj waidjiwajdiwajdiowa jdiwajdiwaj diowajdi wjaidjwaiodjwaio djwioajdiowajd iwajdio wajd iwajd oiwajdoijwi"
-            },
-            "2014": {
-                "title": "Scuole superiori",
-                "description": "Ciao waiodjwaidj waidjiwajdiwajdiowa jdiwajdiwaj diowajdi wjaidjwaiodjwaio djwioajdiowajd iwajdio wajd iwajd oiwajdoijwi"
-            },
-            "2017": {
-                "title": "Primo lavoro",
-                "description": "Ciao waiodjwaidj waidjiwajdiwajdiowa jdiwajdiwaj diowajdi wjaidjwaiodjwaio djwioajdiowajd iwajdio wajd iwajd oiwajdoijwi"
-            },
-            "2019": {
-                "title": "Diploma",
-                "description": "Ciao waiodjwaidj waidjiwajdiwajdiowa jdiwajdiwaj diowajdi wjaidjwaiodjwaio djwioajdiowajd iwajdio wajd iwajd oiwajdoijwi"
-            },
-            "2020": {
-                "title": "Traguardi",
-                "description": "Ciao waiodjwaidj waidjiwajdiwajdiowa jdiwajdiwaj diowajdi wjaidjwaiodjwaio djwioajdiowajd iwajdio wajd iwajd oiwajdoijwi"
-            }
-        }
-    },
     "works": {
         "title": "Lavori",
         "description": "I miei lavori principali su cui ho maturato **6+ anni di esperienza**.",
@@ -68,6 +42,9 @@
             },
             "quizzly": {
                 "description": "Quizzly ti consente di creare facilmente quiz interattivi e divertenti da condividere sui social. Un modo semplice ed efficace per aumentare l’engagement, stimolare la curiosità e rafforzare la connessione con la tua community."
+            },
+            "techigo": {
+                "description": "Techigo è il mio primo blog sulla tecnologia, sviluppo, marketing e tanto altro dove condivido le mie scoperte e argomenti che mi interessano particolarmente."
             }
         }
     },

@@ -2,66 +2,76 @@
 title: "La mia storia"
 slug: "la-mia-storia"
 category: "web-development"
-description: "Un breve riassunto del mio percorso"
+description: "Il mio percorso nello sviluppo software, dall’inizio con la curiosità infantile fino al lavoro come full-stack developer. Una sorta di timeline che mostri come, anno dopo anno, mi sono appassionato sempre di più al mondo del codice e delle tecnologie."
 image: "https://matteocigognini.it/images/posts/la-mia-storia/cover.webp"
 author: "cigognini.matteo"
 tags: []
 date: "2025-02-16"
 ---
 
-# Il mio percorso da sviluppatore: tra codice, caffè e musica
+# La mia storia da sviluppatore
 
-Ciao! Mi chiamo **Matteo** e fin da bambino ho avuto una grande passione per creare cose. Tutto è iniziato intorno ai 9 anni, quando mi divertivo a fare **mod per Minecraft**. Quel piccolo mondo digitale era il mio primo laboratorio: provavo, sbagliavo, imparavo e ricominciavo da capo. Pian piano, quella curiosità si è trasformata in una vera e propria passione per lo **sviluppo web**.
-
----
-
-## Gli inizi: curiosità e sperimentazione
-
-Durante gli anni delle scuole superiori ho capito che questo era il lavoro che volevo fare. Passavo ore a sviluppare:
-
-- Siti web
-- Webapp
-- Piccole applicazioni mobile
-
-Il bello era affrontare **progetti complessi**: più un problema era difficile, più mi stimolava a trovare soluzioni e a capire come mettere insieme frontend, backend e logica dei dati in un modo che funzionasse davvero.
+In questo articolo voglio raccontare il mio percorso nello sviluppo software, dall’inizio con la curiosità infantile fino al lavoro come full-stack developer. Una sorta di timeline che mostri come, anno dopo anno, mi sono appassionato sempre di più al mondo del codice e delle tecnologie.
 
 ---
 
-## Esperienza pratica: crescere sul campo
-
-Oggi lavoro come **sviluppatore full-stack**, occupandomi di progetti end-to-end. Le mie giornate sono fatte di:
-
-- Progettazione e sviluppo di nuove funzionalità
-- Manutenzione e ottimizzazione di sistemi esistenti
-- Deploy e gestione dell’infrastruttura
-
-Amo affrontare sfide tecniche, costruire strumenti utili e vedere concretamente il frutto del mio lavoro online. Ogni progetto è una nuova occasione per imparare e migliorare.
+## 2009 – I primi passi (9 anni)
+- Scopro **Minecraft** e inizio a creare mod.  
+- La curiosità di capire “cosa c’è dietro” diventa il mio primo contatto con la logica della programmazione.  
+- Passavo ore a sperimentare, provando e riprovando finché qualcosa funzionava.  
 
 ---
 
-## La mia filosofia: passione e metodo
-
-Non è solo codice: dietro ogni sessione di programmazione ci sono **caffè e musica**, due compagni inseparabili:
-
-- Il **caffè** mi aiuta a mantenere energia e concentrazione, soprattutto nelle giornate più lunghe.  
-- La **musica** mi accompagna in ogni momento, creando il giusto ritmo mentre scrivo codice o risolvo problemi complessi.  
-
-Credo che avere strumenti che rendono piacevole il lavoro sia fondamentale per dare il massimo e continuare a crescere.
-
----
-
-## Cosa troverai in questo blog
-
-Questo spazio nasce per condividere:
-
-- Il mio percorso personale e professionale
-- Le mie esperienze nello sviluppo web
-- Idee, riflessioni e consigli su come affrontare le sfide tecniche
-
-L’obiettivo è mostrare **la mia passione e il mio modo di lavorare**, e magari ispirare chi, come me, ama creare e imparare ogni giorno.
+## 2013–2018 – La scuola superiore e la passione che cresce
+- Mi iscrivo all’indirizzo informatico e qui capisco che la programmazione non è solo un gioco, ma può diventare un lavoro.  
+- Inizio a sviluppare i miei primi:
+  - **Siti web statici** (HTML, CSS, un po’ di PHP base)  
+  - **Webapp** semplici, giusto per sperimentare  
+  - Piccole **app mobile** con framework base  
+- La sfida era la mia benzina: più era complesso, più mi divertivo a risolverlo.  
+- La programmazione diventa il mio passatempo preferito.
 
 ---
 
-## Conclusione
+## 2018–2024 – L’esperienza lavorativa vera
+- Inizio a lavorare come **sviluppatore full-stack** in una piccola azienda (4-5 persone).  
+- Essendo l’unico dev, mi sono dovuto formare da solo e gestire ogni parte dei progetti:
+  - **Backend** con **PHP** e **Node.js**  
+  - **Frontend** con **Next.js**  
+  - **Database** con **MySQL** (gestione query complesse, caching, ottimizzazione)  
+  - **Server e infrastruttura**: configurazione istanze EC2 su AWS, Load Balancer, Firewall  
+- Ho sviluppato diversi gestionali:
+  - Cataloghi prodotti e comparatori prezzi con i competitor  
+  - Gestione ordini e magazzini  
+  - Gestione spedizioni con tariffe multi-corriere  
+  - Sistema di traduzioni in oltre 40 lingue  
+  - Automazioni (invio email, creazione documenti di fatturazione e spedizione)  
+- Realizzo anche **2 e-commerce** con oltre **500k prodotti** online: sfide enormi su performance e velocità.  
 
-Il percorso da sviluppatore non è mai lineare: ci sono ostacoli, sfide e momenti di dubbio. Ma ciò che rende tutto più speciale è la possibilità di **imparare, creare e vedere il risultato del proprio lavoro**. E, naturalmente, tutto questo è molto più piacevole con un buon caffè in mano e la musica giusta in sottofondo.
+---
+
+## 2024 – Oggi
+- Continuo a lavorare come **full-stack**, con grande autonomia nelle decisioni architetturali.  
+- Sto sviluppando il mio **portfolio personale** e un progetto indipendente: **Quizzly**, una webapp di quiz interattivi (ancora in fase beta).  
+- Le tecnologie principali che utilizzo oggi:
+  - **Node.js**
+  - **Next.js**
+  - **PHP**
+  - **MySQL**
+  - **AWS (EC2, Load Balancer, Firewall)**
+
+---
+
+## Il mio stile di lavoro
+- **Curiosità costante**: non smetto mai di imparare.  
+- **Autonomia**: sono abituato a prendere decisioni e a costruire soluzioni end-to-end.  
+- **Passione**: programmazione per me non è solo un lavoro, ma un piacere.  
+
+Sempre accompagnato da:
+- Una tazza di **caffè** ☕
+- Playlist musicali che mi aiutano a trovare il giusto ritmo 🎧  
+
+---
+
+## Domani
+Il mio percorso è solo all’inizio. Voglio continuare a crescere, imparare nuove tecnologie e affrontare progetti sempre più sfidanti, senza perdere la passione che mi ha spinto a scrivere la mia prima riga di codice.
