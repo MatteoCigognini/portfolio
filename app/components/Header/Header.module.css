@@ -99,6 +99,7 @@
     border: 0;
     display: none;
     font-size: var(--font-size-md);
+    color: var(--foreground);
     background-color: var(--background);
 }
 
