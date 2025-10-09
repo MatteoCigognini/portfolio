@@ -11,7 +11,7 @@ export const PROJECTS = [
         name: "Quizzly",
         slug: "quizzly",
         category: "web-app",
-        link: "https://quizzly.vercel.app/it",
+        link: "https://quizzly-azure.vercel.app/it",
         skills: ["Next.js", "React", "MySQL", "HTML", "CSS", "OpenAI"],
         showImage: false
     },
